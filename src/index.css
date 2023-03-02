@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-dc-gray-2 hover:bg-dc-green text-dc-green hover:text-white hover:rounded-xl rounded-3xl transition-all duration-300 cursor-pointer shadow-lg;
+  }
+
+  .sidebar-tooltip {
+    @apply group-hover:scale-100 absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-dc-gray-1 text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+}
