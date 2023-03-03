@@ -7,3 +7,5 @@ This clone is made in several hours
 - Vite
 - Tailwindcss
 - Headlessui
+
+![preview-img](https://github.com/NureddinFarzaliyev/simple-discord-clone/blob/master/src/image.png)
